@@ -38,8 +38,8 @@ export default function ModalVideo({
         <Image
           className="md:max-w-none"
           src={SecondaryIllustration}
-          width={1165}
-          height={1012}
+          width={1080}
+          height={1920}
           alt="Secondary illustration"
         />
       </div>
@@ -94,9 +94,9 @@ export default function ModalVideo({
               </defs>
             </svg>
             <span className="text-sm font-medium leading-tight text-gray-300">
-              Watch Demo
+              Assista o Vídeo da Realização do Projeto
               <span className="text-gray-600"> - </span>
-              3:47
+              0:41
             </span>
           </span>
         </span>
@@ -116,10 +116,11 @@ export default function ModalVideo({
           <div className="mx-auto flex h-full max-w-6xl items-center">
             <DialogPanel
               transition
-              className="aspect-video max-h-full w-full overflow-hidden rounded-2xl bg-black shadow-2xl duration-300 ease-out data-[closed]:scale-95 data-[closed]:opacity-0"
+              className="aspect-[9/16] max-h-full w-full overflow-hidden rounded-2xl bg-black shadow-2xl duration-300 ease-out data-[closed]:scale-95 data-[closed]:opacity-0"
             >
               <video
                 ref={videoRef}
+                className="h-full w-full object-cover"
                 width={videoWidth}
                 height={videoHeight}
                 loop
