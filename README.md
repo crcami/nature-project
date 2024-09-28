@@ -12,9 +12,9 @@ Primeiros Passos
 Para iniciar o servidor de desenvolvimento:
 
 npm run dev
-# ou
+ ou
 yarn dev
-# ou
+ ou
 pnpm dev
 
 Abra http://localhost:3000 no seu navegador para ver o resultado.
